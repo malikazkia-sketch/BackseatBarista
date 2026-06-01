@@ -169,13 +169,21 @@ Filter file upload – Sistem masih menerima file PDF untuk bukti bayar
 ## 👥 Tim Pengembang
 
 Nama - NIM - Peran
+
 Alifia Rahmah	(M0405241064):	Registrasi & Login, Checkout, Riwayat Transaksi, Update Status Pesanan
+
 Abiyyurasyiddhiya Ghulmy P	(M0405241065):	Keranjang, Logout, Upload Bukti, Formulir Kolaborasi
+
 Malika Azkia Kindah	(M0405241066):	Katalog Produk, Favorit, Manajemen Produk, Verifikasi Pembayaran
+
 Mata Kuliah: Rekayasa Perangkat Lunak
+
 Program Studi: Kecerdasan Buatan
+
 Sekolah Sains Data, Matematika dan Informatika
+
 Institut Pertanian Bogor 
+
 Tahun Akademik: 2025/2026 - Semester Genap
 
 📧 Kontak
