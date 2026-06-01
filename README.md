@@ -101,6 +101,7 @@ Pastikan Anda telah menginstal:
    cd backseat-barista
 ## Struktur Proyek
 backseat-barista/
+
 ├── public/
 
   │   ├── css/            # Stylesheet
@@ -110,6 +111,7 @@ backseat-barista/
   │   └── uploads/        # Folder upload bukti pembayaran
   
 ├── views/
+
   │   ├── index.html      # Halaman beranda
   
   │   ├── menu.html       # Halaman katalog produk
@@ -123,7 +125,9 @@ backseat-barista/
   │   ├── dashboard.html  # Dashboard admin
   
   │   └── collaboration.html # Halaman kolaborasi UMKM
+  
 ├── backend/
+
   │   ├── server.js       # Entry point server
   
   │   ├── database.js     # Konfigurasi SQLite
