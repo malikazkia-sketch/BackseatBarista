@@ -86,3 +86,77 @@ Entitas utama yang digunakan:
 
 ---
 
+## 💻 Instalasi & Menjalankan
+
+### Prasyarat
+
+Pastikan Anda telah menginstal:
+- [Node.js](https://nodejs.org/) (versi 20.x atau lebih baru)
+- [Git](https://git-scm.com/)
+
+### Langkah Instalasi
+
+1. **Clone repository**
+   ```bash
+   git clone https://github.com/username/backseat-barista.git
+   cd backseat-barista
+## Struktur Proyek
+backseat-barista/
+├── public/
+│   ├── css/            # Stylesheet
+│   ├── js/             # Frontend JavaScript
+│   └── uploads/        # Folder upload bukti pembayaran
+├── views/
+│   ├── index.html      # Halaman beranda
+│   ├── menu.html       # Halaman katalog produk
+│   ├── cart.html       # Halaman keranjang
+│   ├── login.html      # Halaman login
+│   ├── register.html   # Halaman registrasi
+│   ├── dashboard.html  # Dashboard admin
+│   └── collaboration.html # Halaman kolaborasi UMKM
+├── backend/
+│   ├── server.js       # Entry point server
+│   ├── database.js     # Konfigurasi SQLite
+│   ├── routes/         # Definisi route API
+│   └── middleware/     # Middleware (auth, upload)
+├── .env                # Environment variables
+├── package.json
+└── README.md
+
+## 🧪 Pengujian
+
+Pengujian dilakukan menggunakan metode Black-Box Testing. Berikut adalah beberapa test case yang telah diuji:
+
+ID Test Case	Fitur	Status
+TC_REG_001	Registrasi dengan data valid	✅ PASSED
+TC_LOG_001	Login dengan data valid	✅ PASSED
+TC_KER_001	Menambah produk ke keranjang	✅ PASSED
+TC_FAV_001	Menambah produk ke favorit	✅ PASSED
+TC_PES_001	Checkout pemesanan	✅ PASSED
+TC_VER_001	Verifikasi pembayaran oleh admin	✅ PASSED
+TC_MAP_001	Admin menambah produk baru	✅ PASSED
+
+Bug yang Ditemukan (Perbaikan di Sprint Selanjutnya)
+
+Validasi email – Sistem masih meloloskan email tanpa karakter '@'
+Filter file upload – Sistem masih menerima file PDF untuk bukti bayar
+
+## 👥 Tim Pengembang
+
+Nama - NIM - Peran
+Alifia Rahmah	(M0405241064):	Registrasi & Login, Checkout, Riwayat Transaksi, Update Status Pesanan
+Abiyyurasyiddhiya Ghulmy P	(M0405241065):	Keranjang, Logout, Upload Bukti, Formulir Kolaborasi
+Malika Azkia Kindah	(M0405241066):	Katalog Produk, Favorit, Manajemen Produk, Verifikasi Pembayaran
+Mata Kuliah: Rekayasa Perangkat Lunak
+Program Studi: Kecerdasan Buatan
+Sekolah Sains Data, Matematika dan Informatika
+Institut Pertanian Bogor 
+Tahun Akademik: 2025/2026 - Semester Genap
+
+📧 Kontak
+
+Untuk pertanyaan lebih lanjut, silakan hubungi:
+
+Website: https://backseatbarista.up.railway.app
+
+<p align="center"> <i>Experience the Art of Coffee</i><br> Dibangun dengan ☕ oleh Tim Backseat Barista </p> ```
